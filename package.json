@@ -1,22 +1,22 @@
 {
-  "name": "hexo-renderer-jade",
+  "name": "hexo-renderer-haml",
   "version": "0.0.2",
-  "description": "Jade renderer plugin for Hexo",
+  "description": "Haml renderer plugin for Hexo",
   "main": "index",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tommy351/hexo-plugins.git"
+    "url": "https://github.com/hexojs/hexo-renderer-haml.git"
   },
-  "keywords": ["website", "blog", "cms", "framework", "hexo"],
+  "bugs": {
+    "url": "https://github.com/hexojs/hexo-renderer-haml/issues"
+  },
+  "keywords": ["hexo", "haml"],
   "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
   "license": {
     "type": "MIT",
     "url": "https://raw.github.com/tommy351/hexo/master/LICENSE"
   },
-  "engines": {
-    "hexo": ">= 1.0.0"
-  },
   "dependencies": {
-    "jade": "*"
+    "hamljs": "*"
   }
 }
