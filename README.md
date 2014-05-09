@@ -4,7 +4,7 @@ Add support for [Haml].
 
 ## Install
 
-```
+``` bash
 $ npm install hexo-renderer-haml --save
 ```
 
