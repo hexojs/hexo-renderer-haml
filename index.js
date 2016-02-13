@@ -1,6 +1,4 @@
-var haml = require('hamljs'),
-  _ = require('lodash');
+/* global hexo */
+'use strict';
 
-hexo.extend.renderer.register('haml', 'html', function(data, locals){
-  return haml.render(data.text, _.extend({filename: data.path}, locals));
-}, true);
+hexo.extend.renderer.register('haml', 'html', require('./lib/renderer'), true);
