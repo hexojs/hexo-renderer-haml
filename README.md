@@ -1,3 +1,7 @@
+# DEPRECATED!
+
+hexo-renderer-haml has been deprecated. Please use other renderer (e.g, [Nunjuks](https://github.com/hexojs/hexo-renderer-nunjucks), [EJS](https://github.com/hexojs/hexo-renderer-ejs))
+
 # hexo-renderer-haml
 
 [![Build Status](https://travis-ci.org/hexojs/hexo-renderer-haml.svg?branch=master)](https://travis-ci.org/hexojs/hexo-renderer-haml)
